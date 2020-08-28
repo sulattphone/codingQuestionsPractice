@@ -1,4 +1,7 @@
 /**
+ * Description: Remove the nth node from the end of the list
+ * Comment: Forgot if rabbit.next is null. Forgot if turtoise is null.
+ *
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
