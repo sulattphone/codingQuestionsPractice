@@ -2,14 +2,22 @@
 
 Structure:
 
---| easy
-   --| sumOfLeftLeaves
+```bash
+-- easy
+   |-- sumOfLeftLeaves
 
---| medium
-   --| removeNthNodeFromEnd
+-- medium
+   |-- removeNthNodeFromEnd
    
---| tree
-   --| sumOfLeftLeaves
+-- hard
+   |-- canGraphBeMColored
    
---| linkedList 
-   --| removeNthNodeFromEnd
+-- tree
+   |-- sumOfLeftLeaves
+   
+-- linkedList 
+   |-- removeNthNodeFromEnd
+   
+-- graph
+   |-- canGraphBeMColored
+```
