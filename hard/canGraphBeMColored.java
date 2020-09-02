@@ -3,7 +3,11 @@
     Given an adjacency matrix of 0's and 1's with 1 meaning the two can't have the same color,
     find whether the graph can me m-colored or not.
     
-    track[i] is a list with (color, beenOnQueue, OPTIONAL: list of connections)
+    Things used: track[i] is a list with (color, beenOnQueue, OPTIONAL: list of connections)
+    
+    Comments: Accidentally used graph[i][j] value for look for color when I should've used j to look for color
+    
+    BFS Way
 */
 public class Main {
     public static void main(String[] args) {
@@ -147,4 +151,120 @@ public class Main {
             track[i] = list;
         }
     }
+}
+
+
+/***************************** DFS way ***************************/
+
+public class Main {
+    public static void main(String[] args) {
+        int[][] test1 = {{0, 0, 1, 0, 0, 0, 0, 0},
+                         {0, 0, 0, 1, 0, 0, 0, 0},
+                         {1, 0, 0, 0, 1, 1, 1, 0},
+                         {0, 1, 0, 0, 0, 0, 0, 0},
+                         {0, 0, 1, 0, 0, 0, 0, 0},
+                         {0, 0, 1, 0, 0, 0, 0, 0},
+                         {0, 0, 1, 0, 0, 0, 0, 0},
+                         {0, 0, 0, 0, 0, 0, 0, 0}};
+        
+        int[][] test2 = {{0, 1, 1, 1},
+                         {1, 0, 0, 1},
+                         {1, 0, 0, 1},
+                         {1, 1, 1, 0}};
+        
+        //a straight line
+        int[][] test3 = {{0, 1, 0 ,0},
+                         {1, 0, 1, 0},
+                         {0, 1, 0, 1},
+                         {0, 0, 1, 0}};
+        
+        int[][] test4 = {{0, 0, 0 ,0},
+                         {0, 0, 0, 0},
+                         {0, 0, 0, 0},
+                         {0, 0, 0, 0}};
+        
+        int[][] test5 = {{1, 1, 1 ,1},
+                         {1, 1, 1, 1},
+                         {1, 1, 1, 1},
+                         {1, 1, 1, 1}};
+        
+        int m = 3;
+        boolean colorable = canBeMColored(test5, m);
+        System.out.println("Can be "+ m + " colored: " + colorable);
+    }
+    static boolean canBeMColored(int[][] graph, int m) {
+        int[] color = new int[graph.length];       //0 means not colored
+        boolean[] beenOnStack = new boolean[graph.length];      //false means not been on stack at all
+        Stack<Integer> stack = new Stack();
+        boolean possible = true;    //assume it's true and then alert if it's not
+        for (int i = 0; i < graph.length; i++) {
+            if(!beenOnStack[i]) {
+                stack.push(i);
+                beenOnStack[i] = true;
+                possible = dfs(graph, m, color, beenOnStack, stack);
+                if(!possible) {
+                    return false;
+                }
+            }
+        }
+        return true;    //true if no false flag has been raised at all
+    }
+    
+    static boolean dfs(int[][] graph, int m, int[] color, boolean[] beenOnStack, Stack<Integer> stack) {
+        boolean isValid = true;
+        if(!stack.empty()) {
+            int i = stack.peek();
+            
+            for (int j = 0; j < graph.length; j++) {
+                if (j != i) {
+                    if ((graph[i][j] == 1) && (!beenOnStack[j])) {
+                        stack.push(j);
+                        beenOnStack[j] = true;
+                        isValid = dfs(graph, m, color, beenOnStack, stack);
+                        if(!isValid) {
+                            return false;
+                        }
+                    }
+                }
+            }
+            
+            //paint
+            if(color[i] == 0) {
+                isValid = canBePaintedAndPainted(graph, m, i, color);
+                if (!isValid) {
+                    return false;
+                }
+            }
+            stack.pop();
+        }
+        return true;    //true if no false flag has been raised at all
+    }
+    
+    static boolean canBePaintedAndPainted(int[][] graph, int m, int i, int[] color) {
+        for (int c = 1; c <= m; c++) {
+            boolean isAvailable = isColorAvailable(graph, c, i, color);
+            if(isAvailable) {
+                color[i] = c;
+                //System.out.println(Arrays.toString(color));
+                //System.out.println("Colored " + (i+1) + " with color: " + c);
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    static boolean isColorAvailable(int[][] graph, int c, int i, int[] color) {
+        for (int j = 0; j < graph.length; j++) {
+            if(j != i && graph[i][j] == 1) {
+                //System.out.println((i+1)+"'s neighbor has color: "+ color[j]);
+                if(color[j] == c) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    
+    
+    
 }
