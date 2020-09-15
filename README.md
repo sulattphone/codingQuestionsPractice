@@ -10,6 +10,7 @@ Structure:
 -- medium
    |-- removeNthNodeFromEnd
    |-- BinaryTreeInOrderTraversal
+   |-- GroupAnagrams
    
 -- hard
    |-- canGraphBeMColored
@@ -24,6 +25,7 @@ Structure:
 -- graph
    |-- canGraphBeMColored
 
---|hashMap
+-- hashMap
    |-- TwoSum
+   |-- GroupAnagrams
 ```
