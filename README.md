@@ -7,6 +7,7 @@ Structure:
    |-- sumOfLeftLeaves
    |-- TwoSum
    |-- BuySellStockMaxProfit
+   |-- ClimbingStairs
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -19,6 +20,9 @@ Structure:
 -- tree
    |-- sumOfLeftLeaves
    |-- BinaryTreeInOrderTraversal
+   
+--| dynamicProgramming
+   |-- ClimbingStairs
    
 -- linkedList 
    |-- removeNthNodeFromEnd
