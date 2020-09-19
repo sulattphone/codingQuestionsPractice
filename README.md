@@ -6,6 +6,7 @@ Structure:
 -- easy
    |-- sumOfLeftLeaves
    |-- TwoSum
+   |-- BuySellStockMaxProfit
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -28,4 +29,7 @@ Structure:
 -- hashMap
    |-- TwoSum
    |-- GroupAnagrams
+
+--| array
+   |-- BuySellStockMaxProfit
 ```
