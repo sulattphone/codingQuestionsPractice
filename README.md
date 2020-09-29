@@ -8,6 +8,8 @@ Structure:
    |-- TwoSum
    |-- BuySellStockMaxProfit
    |-- ClimbingStairs
+   |-- maximumDepthBinaryTree
+   |-- reverseLinkedList
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -24,12 +26,14 @@ Structure:
 -- tree
    |-- sumOfLeftLeaves
    |-- BinaryTreeInOrderTraversal
+   |-- maximumDepthBinaryTree
    
 --| dynamicProgramming
    |-- ClimbingStairs
    
 -- linkedList 
    |-- removeNthNodeFromEnd
+   |-- reverseLinkedList
    
 -- graph
    |-- canGraphBeMColored
