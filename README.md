@@ -17,6 +17,10 @@ Structure:
 -- hard
    |-- canGraphBeMColored
    
+-- interview
+   |-- bloomberg
+       |-- parkingLots
+   
 -- tree
    |-- sumOfLeftLeaves
    |-- BinaryTreeInOrderTraversal
