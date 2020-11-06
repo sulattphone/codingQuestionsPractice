@@ -1,0 +1,204 @@
+/************** Front-End Questions ************/
+
+// double takes an integer and returns it multiplied by two
+function double(x) {
+  return x*2;
+}
+
+
+Double = x => {
+Return x*2;
+}
+
+Const double = (x) => x*2;
+
+console.log(false == '')
+console.log(false === '')
+
+console.log(false == '0')
+console.log(false === '0')
+
+let var const
+
+var i = 5;
+for (i = 0; i < 10; i++) {
+  // some statements
+}
+console.log(i);
+
+let i = 5;
+for (i = 0; i < 10; i++) {
+  // some statements
+}
+console.log(i);
+
+const i = 5;
+for (i = 0; i < 10; i++) {
+  // some statements
+}
+console.log(i);
+
+
+var x = 'Cat';
+function animal(x) {
+ 	function name() {
+    		console.log(x);
+  	}
+  	return name;
+}
+
+var myDog = animal(‘Dog’);
+myDog();
+
+
+
+/******* Front-End Questions (End) ******/
+
+
+
+/************ General Binary Search Tree Implementation
+
+class Node {
+  constructor(value) {
+    This.value = value;
+    this.leftChild = null;
+    this.rightChild = null;
+    This.parent = null;
+  }
+
+  function push(value) {
+     If (value < this.value) {
+      	If (this.leftChild == null) {
+      		Node l = new Node(value);
+		L.parent = this;
+      		this.leftChild =  l;
+                       
+      	} else {
+     		this.leftChild.push(value);
+       	 }
+    } else {
+	If (this.rightChild == null) {
+		Node r = new Node(value);
+		R.parent = this;
+		this.rightChild = r;
+} else {
+	this.rightChild.push(value);
+    	}
+}
+
+//                   	     10
+//                  	    /     \
+//               	  /         \
+//                	4  	15
+//                    /  \ 	/   \
+//                  1    7     12    20
+//                   	    \
+//                    	     9
+
+// min returns the minimum node of the tree rooted at node.
+function min(node) {
+If (node.leftChild == null) {
+	Return node;
+}
+Else {
+	Return min(node.leftChild);
+}
+}
+
+
+
+
+
+//		 10
+//		/    \
+//	          	      12
+//		      /   \ 
+// 		   11    13
+//		   /   \
+//	                  11.5
+
+
+Check right is null or not
+	If right not null
+   		While left child is not null
+			Keep checking left
+           
+     	
+
+Check parent is null or not
+Check parent value
+		
+
+Var ten = new Node(10);
+Var four = new Node(4);
+ten.leftChild = four;
+…
+
+next(four); // should return node seven
+
+
+//                   	     10
+//                  	    /     \
+//               	  /         \
+//                	4  	15
+//                    /  \ 	/   \
+//                  1    7     12    20
+//                   	    \
+//                    	     9
+
+// next returns the node with the next largest value in the
+// tree. If the given node is the largest, return null.
+function next(node) {
+
+	If (node.rightChild != null) {
+		Node p = node.rightChild;
+		while(p.leftChild != null) {
+			P = p.leftChild
+}
+Return p;
+
+}
+If (node.parent.value  > node.value) {
+	Return node.parent;
+}
+Else {
+	Node p = node.parent;
+	while(p != null && p.value < node.value) {
+		P = p.parent;
+}
+Return p;
+}
+}
+
+//                   	     10
+//                  	    /     \
+//               	  /         \
+//                	4  	15
+//                    /  \ 	/   \
+//                  1    7     12    20
+//                   	 /  \             /
+//                    	5    9        17
+
+// prints the values of the tree in order from lowest to highest value.
+function printTree(root) {
+  Node lowest = min(root);
+	print(lowest);
+	Lowest = next(lowest);
+	while(lowest != null) {
+		print(lowest));
+		Lowest = next(lowest));
+}
+}
+
+Var n = new Node(10);
+n.push(9);
+n.push(8);
+n.push(7);
+n.push(6);
+
+
+Function printTree(root) {
+ // recurse left
+  Print value
+  // recurse right
+}
