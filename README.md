@@ -10,6 +10,7 @@ Structure:
    |-- ClimbingStairs
    |-- maximumDepthBinaryTree
    |-- reverseLinkedList
+   |-- removeDuplicatesFromSortedArray
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -44,4 +45,5 @@ Structure:
 
 --| array
    |-- BuySellStockMaxProfit
+   |-- removeDuplicatesFromSortedArray
 ```
