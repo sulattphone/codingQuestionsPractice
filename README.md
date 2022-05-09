@@ -11,6 +11,7 @@ Structure:
    |-- maximumDepthBinaryTree
    |-- reverseLinkedList
    |-- removeDuplicatesFromSortedArray
+   |-- sameTree
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -28,6 +29,7 @@ Structure:
    |-- sumOfLeftLeaves
    |-- BinaryTreeInOrderTraversal
    |-- maximumDepthBinaryTree
+   |-- sameTree
    
 --| dynamicProgramming
    |-- ClimbingStairs
