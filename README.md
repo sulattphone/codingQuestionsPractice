@@ -17,6 +17,8 @@ Structure:
    |-- removeNthNodeFromEnd
    |-- BinaryTreeInOrderTraversal
    |-- GroupAnagrams
+   |-- validBST
+   |-- deepestLeavesSum
    
 -- hard
    |-- canGraphBeMColored
@@ -24,12 +26,15 @@ Structure:
 -- interview
    |-- bloomberg
        |-- parkingLots
+   |-- arista
    
 -- tree
    |-- sumOfLeftLeaves
    |-- BinaryTreeInOrderTraversal
    |-- maximumDepthBinaryTree
    |-- sameTree
+   |-- validBST
+   |-- deepestLeavesSum
    
 --| dynamicProgramming
    |-- ClimbingStairs
