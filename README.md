@@ -12,6 +12,15 @@ Structure:
    |-- reverseLinkedList
    |-- removeDuplicatesFromSortedArray
    |-- sameTree
+   |-- ClosestValueInBST
+   |-- HighestAltitude
+   |-- LongestCommonPrefix
+   |-- LongestPalindrome
+   |-- NonConstructibleChange
+   |-- SortSquaredArray
+   |-- TournamentWinner
+   |-- ValidateSubsequence
+   |-- ValidPalindrome
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -27,6 +36,11 @@ Structure:
    |-- bloomberg
        |-- parkingLots
    |-- arista
+   |-- google
+   |-- guidewire
+   |-- naehas
+      |-- ValidPalindrome
+   |-- verizon
    
 -- tree
    |-- sumOfLeftLeaves
@@ -35,6 +49,7 @@ Structure:
    |-- sameTree
    |-- validBST
    |-- deepestLeavesSum
+   |-- ClosestValueInBST
    
 --| dynamicProgramming
    |-- ClimbingStairs
@@ -53,4 +68,14 @@ Structure:
 --| array
    |-- BuySellStockMaxProfit
    |-- removeDuplicatesFromSortedArray
+   |-- HighestAltitude
+   |-- NonConstructibleChange
+   |-- SortSquaredArray
+   |-- Tournament Winner
+   |-- ValidateSubsequence
+
+--| string
+   |-- LongestCommonPrefix
+   |-- LongestPalidrome
+   |-- ValidPalindrome
 ```
