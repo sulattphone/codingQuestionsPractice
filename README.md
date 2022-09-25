@@ -22,6 +22,7 @@ Structure:
    |-- ValidateSubsequence
    |-- ValidPalindrome
    |-- Branch Sums
+   |-- Node Depths
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -52,6 +53,7 @@ Structure:
    |-- deepestLeavesSum
    |-- ClosestValueInBST
    |-- Branch Sums
+   |-- Node Depths
    
 --| dynamicProgramming
    |-- ClimbingStairs
