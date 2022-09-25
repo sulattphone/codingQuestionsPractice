@@ -21,6 +21,7 @@ Structure:
    |-- TournamentWinner
    |-- ValidateSubsequence
    |-- ValidPalindrome
+   |-- Branch Sums
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -50,6 +51,7 @@ Structure:
    |-- validBST
    |-- deepestLeavesSum
    |-- ClosestValueInBST
+   |-- Branch Sums
    
 --| dynamicProgramming
    |-- ClimbingStairs
