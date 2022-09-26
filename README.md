@@ -23,6 +23,7 @@ Structure:
    |-- ValidPalindrome
    |-- Branch Sums
    |-- Node Depths
+   |-- Summary Ranges
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -77,6 +78,7 @@ Structure:
    |-- SortSquaredArray
    |-- Tournament Winner
    |-- ValidateSubsequence
+   |-- Summary Ranges
 
 --| string
    |-- LongestCommonPrefix
