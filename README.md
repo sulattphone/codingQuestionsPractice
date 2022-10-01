@@ -24,6 +24,8 @@ Structure:
    |-- Branch Sums
    |-- Node Depths
    |-- Summary Ranges
+   |-- DepthFirstSearch
+   |-- MinimumWaitTime
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -54,7 +56,8 @@ Structure:
    |-- deepestLeavesSum
    |-- ClosestValueInBST
    |-- Branch Sums
-   |-- Node Depths
+   |-- NodeDepths
+   |-- DepthFirstSearch
    
 --| dynamicProgramming
    |-- ClimbingStairs
@@ -79,6 +82,7 @@ Structure:
    |-- Tournament Winner
    |-- ValidateSubsequence
    |-- Summary Ranges
+   |-- Minimum Wait Time
 
 --| string
    |-- LongestCommonPrefix
