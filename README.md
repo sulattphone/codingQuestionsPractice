@@ -33,6 +33,7 @@ Structure:
    |-- GroupAnagrams
    |-- validBST
    |-- deepestLeavesSum
+   |-- ThreeNumberSum
    
 -- hard
    |-- canGraphBeMColored
@@ -71,6 +72,7 @@ Structure:
 
 -- hashMap
    |-- TwoSum
+   |-- ThreeNumberSum
    |-- GroupAnagrams
 
 --| array
