@@ -21,11 +21,12 @@ Structure:
    |-- TournamentWinner
    |-- ValidateSubsequence
    |-- ValidPalindrome
-   |-- Branch Sums
-   |-- Node Depths
-   |-- Summary Ranges
+   |-- BranchSums
+   |-- NodeDepths
+   |-- SummaryRanges
    |-- DepthFirstSearch
    |-- MinimumWaitTime
+   |-- ClassPhotos
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -81,10 +82,11 @@ Structure:
    |-- HighestAltitude
    |-- NonConstructibleChange
    |-- SortSquaredArray
-   |-- Tournament Winner
+   |-- TournamentWinner
    |-- ValidateSubsequence
-   |-- Summary Ranges
-   |-- Minimum Wait Time
+   |-- SummaryRanges
+   |-- MinimumWaitTime
+   |-- ClassPhotos
 
 --| string
    |-- LongestCommonPrefix
