@@ -35,6 +35,7 @@ Structure:
    |-- validBST
    |-- deepestLeavesSum
    |-- ThreeNumberSum
+   |-- SmallestDifference
    
 -- hard
    |-- canGraphBeMColored
@@ -87,6 +88,7 @@ Structure:
    |-- SummaryRanges
    |-- MinimumWaitTime
    |-- ClassPhotos
+   |-- SmallestDifference
 
 --| string
    |-- LongestCommonPrefix
