@@ -36,6 +36,7 @@ Structure:
    |-- deepestLeavesSum
    |-- ThreeNumberSum
    |-- SmallestDifference
+   |-- MoveElementToEnd
    
 -- hard
    |-- canGraphBeMColored
@@ -89,6 +90,7 @@ Structure:
    |-- MinimumWaitTime
    |-- ClassPhotos
    |-- SmallestDifference
+   |-- MoveElementToEnd
 
 --| string
    |-- LongestCommonPrefix
