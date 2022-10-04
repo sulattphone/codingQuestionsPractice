@@ -37,6 +37,7 @@ Structure:
    |-- ThreeNumberSum
    |-- SmallestDifference
    |-- MoveElementToEnd
+   |-- MonotonicArray
    
 -- hard
    |-- canGraphBeMColored
@@ -91,6 +92,7 @@ Structure:
    |-- ClassPhotos
    |-- SmallestDifference
    |-- MoveElementToEnd
+   |-- MonotonicArray
 
 --| string
    |-- LongestCommonPrefix
