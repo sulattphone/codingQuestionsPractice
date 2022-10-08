@@ -28,6 +28,7 @@ Structure:
    |-- MinimumWaitTime
    |-- ClassPhotos
    |-- TandemBicycle
+   |-- RunningSum
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -95,6 +96,7 @@ Structure:
    |-- MoveElementToEnd
    |-- MonotonicArray
    |-- TandemBicycle
+   |-- RunningSum
 
 --| string
    |-- LongestCommonPrefix
