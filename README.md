@@ -27,6 +27,7 @@ Structure:
    |-- DepthFirstSearch
    |-- MinimumWaitTime
    |-- ClassPhotos
+   |-- TandemBicycle
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -93,6 +94,7 @@ Structure:
    |-- SmallestDifference
    |-- MoveElementToEnd
    |-- MonotonicArray
+   |-- TandemBicycle
 
 --| string
    |-- LongestCommonPrefix
