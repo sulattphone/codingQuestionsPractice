@@ -42,6 +42,7 @@ Structure:
    |-- MonotonicArray
    |-- SpiralTraverse
    |-- LongestPeak
+   |-- ArrayOfProducts
    
 -- hard
    |-- canGraphBeMColored
@@ -101,6 +102,7 @@ Structure:
    |-- RunningSum
    |-- SpiralTraverse
    |-- LongestPeak
+   |-- ArrayOfProducts
 
 --| string
    |-- LongestCommonPrefix
