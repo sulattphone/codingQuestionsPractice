@@ -40,6 +40,7 @@ Structure:
    |-- SmallestDifference
    |-- MoveElementToEnd
    |-- MonotonicArray
+   |-- SpiralTraverse
    
 -- hard
    |-- canGraphBeMColored
@@ -97,6 +98,7 @@ Structure:
    |-- MonotonicArray
    |-- TandemBicycle
    |-- RunningSum
+   |-- SpiralTraverse
 
 --| string
    |-- LongestCommonPrefix
