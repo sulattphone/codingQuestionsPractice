@@ -41,6 +41,7 @@ Structure:
    |-- MoveElementToEnd
    |-- MonotonicArray
    |-- SpiralTraverse
+   |-- LongestPeak
    
 -- hard
    |-- canGraphBeMColored
@@ -99,6 +100,7 @@ Structure:
    |-- TandemBicycle
    |-- RunningSum
    |-- SpiralTraverse
+   |-- LongestPeak
 
 --| string
    |-- LongestCommonPrefix
