@@ -43,6 +43,7 @@ Structure:
    |-- SpiralTraverse
    |-- LongestPeak
    |-- ArrayOfProducts
+   |-- FirstDuplicateValue
    
 -- hard
    |-- canGraphBeMColored
@@ -103,6 +104,7 @@ Structure:
    |-- SpiralTraverse
    |-- LongestPeak
    |-- ArrayOfProducts
+   |-- FirstDuplicateValue
 
 --| string
    |-- LongestCommonPrefix
