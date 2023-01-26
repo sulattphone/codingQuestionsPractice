@@ -29,6 +29,7 @@ Structure:
    |-- ClassPhotos
    |-- TandemBicycle
    |-- RunningSum
+   |-- RemoveDuplicatesFromLinkedList
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -76,6 +77,7 @@ Structure:
 -- linkedList 
    |-- removeNthNodeFromEnd
    |-- reverseLinkedList
+   |-- RemoveDuplicatesFromLinkedList
    
 -- graph
    |-- canGraphBeMColored
