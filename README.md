@@ -45,6 +45,7 @@ Structure:
    |-- LongestPeak
    |-- ArrayOfProducts
    |-- FirstDuplicateValue
+   |-- MergeOverlappingIntervals
    
 -- hard
    |-- canGraphBeMColored
@@ -107,6 +108,7 @@ Structure:
    |-- LongestPeak
    |-- ArrayOfProducts
    |-- FirstDuplicateValue
+   |-- MergeOverlappingIntervals
 
 --| string
    |-- LongestCommonPrefix
