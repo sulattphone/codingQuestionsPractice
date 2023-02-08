@@ -30,6 +30,7 @@ Structure:
    |-- TandemBicycle
    |-- RunningSum
    |-- RemoveDuplicatesFromLinkedList
+   |-- NthFibonacci
 
 -- medium
    |-- removeNthNodeFromEnd
@@ -74,6 +75,7 @@ Structure:
    
 --| dynamicProgramming
    |-- ClimbingStairs
+   |-- NthFibonacci
    
 -- linkedList 
    |-- removeNthNodeFromEnd
